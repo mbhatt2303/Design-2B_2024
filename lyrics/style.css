@@ -2,18 +2,18 @@ body{
     background-color: rgb(0, 0, 0)
 }
 
-#lineOne{
-    color:rgb(253, 253, 253);
+h1{
+    color:rgb(255, 247, 0);
 }
 
-#lineTwo{
-    font-size: 40px;
+h2{
+    color:rgb(255, 247, 0);  
 }
-#lineThree{
-    font-family: 'Gelasio', serif;
-    font-size: 90px;
-    background-color:aqua;
+
+p{
+    color:rgb(255, 255, 255);
 }
+
 
 .alegreya-sans sc-thin {
     font-family: "Alegreya Sans SC", sans-serif;
@@ -21,84 +21,6 @@ body{
     font-style: normal;
 }
   
-  .alegreya-sans sc-light {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-regular {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-medium {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-bold {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-extrabold {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-black {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-  
-  .alegreya-sans sc-thin-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-light-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-regular-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-medium-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-bold-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-extrabold-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-  
-  .alegreya-sans sc-black-italic {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
   
   .allerta-stencil-regular {
     font-family: "Allerta Stencil", sans-serif;
