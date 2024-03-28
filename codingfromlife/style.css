@@ -1,7 +1,4 @@
-body {
-	background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 51%, rgba(255,0,44,1) 100%);
-}
+
 
 /* do NOT modify the canvas */
 .canvas {
@@ -20,27 +17,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 51%, rgba(2
 	background: red;
   }
 
-
-.triangle {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid yellow;
-	position: absolute;
-	top: 160px;
-	left: 100px;
-	transform: scale(0.5);
-}
-
-.square {
-	width: 200px;
-	height: 200px;
-	background: red;
-	top: 160px;
-	left: 350px;
-	position: absolute;
-}
 
 .circle {
 	width: 200px;
