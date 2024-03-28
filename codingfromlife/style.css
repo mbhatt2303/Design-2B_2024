@@ -2,9 +2,7 @@
 
 /* do NOT modify the canvas */
 .canvas {
-	margin: 100px auto;
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 51%, rgba(255,0,44,1) 100%);
-	position: relative;
 }
 
 /* modify the assets below */
