@@ -18,3 +18,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(2
 	height: 0;
 	width: 125px;
 }
+
+#rectangle {
+	width: 1800px;
+	height: 100px;
+	background: rgb(240, 240, 240);
+  }
+	
