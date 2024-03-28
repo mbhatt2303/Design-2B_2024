@@ -1,20 +1,50 @@
-
+body {
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(255,0,44,1) 100%);
+}
 
 /* do NOT modify the canvas */
 .canvas {
 	width: 1000px;
 	height: 600px;
 	margin: 100px auto;
-	background: linear-gradient (90deg, Irgba(0,0,0,1) 0%, Ergba(121,9,9,1) 51%, Ergba(255,0,44,1) 100%) ;
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(255,0,44,1) 100%);
 	position: relative;
 }
 
 /* modify the assets below */
-
-.trapezoid {
-	border-bottom: 50px solid #4c3301;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
+.triangle {
+	width: 0;
 	height: 0;
-	width: 125px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+	transform: scale(0.5);
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
+
+#square2 {
+	background: green;
+	width: 50px;
+	height: 300px;	
 }
