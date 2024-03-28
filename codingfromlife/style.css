@@ -1,8 +1,12 @@
 
 
 /* do NOT modify the canvas */
-.body {
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 51%, rgba(255,0,44,1) 100%);
+.canvas {
+	width: 1000px;
+	height: 600px;
+	margin: 100px auto;
+	background: linear-gradient (90deg, Irgba(0,0,0,1) 0%, Ergba(121,9,9,1) 51%, Ergba(255,0,44,1) 100%) ;
+	position: relative;
 }
 
 /* modify the assets below */
