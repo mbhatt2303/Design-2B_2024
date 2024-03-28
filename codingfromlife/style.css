@@ -12,16 +12,15 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(2
 }
 
 .trapezoid {
-	border-bottom: 50px solid I#fdfafa;
+	border-bottom: 50px solid #fdfafa;
 	border-left: 250x solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 125px;
 }
 
-#rectangle {
+.rectangle {
 	width: 1800px;
 	height: 100px;
 	background: rgb(240, 240, 240);
   }
-	
