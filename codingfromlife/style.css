@@ -15,5 +15,6 @@ position: relative;
 	width: 200px;
 	height: 100px;
 	background: rgb(240, 240, 240);
+	position: fixed;
 
   }
