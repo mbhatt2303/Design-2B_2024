@@ -11,14 +11,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(2
 position: relative;
 }
 
-.rectangle {
-	width: 200px;
-	height: 100px;
-	background: rgb(240, 240, 240);
-	position: fixed;right: 600px; bottom: 350px;
-  }
-
-
 /* plate */
 .circle {
 	width: 400px;
