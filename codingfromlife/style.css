@@ -66,7 +66,7 @@ position: relative;
 .circle5 {
 	width: 40px;
 	height: 40px;
-	background: rgb(160, 227, 15);
+	background: rgb(227, 54, 15);
 	border-radius: 200px;
     transform: translate(500px , 130px);
 	}
@@ -76,7 +76,7 @@ position: relative;
 	height: 40px;
 	background: rgb(15, 33, 227);
 	border-radius: 200px;
-    transform: translate(700px , 700px);
+    transform: translate(550px , 300px);
 	}
 	/* roni */
 .circle7 {
@@ -100,7 +100,7 @@ position: relative;
 	height: 40px;
 	background: rgb(230, 226, 224);
 	border-radius: 200px;
-    transform: translate(300px , 600px);
+    transform: translate(500px , 450px);
 	}
 
 	/* olive */
