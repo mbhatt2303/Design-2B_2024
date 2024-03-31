@@ -13,14 +13,17 @@ position: relative;
 
 /* plate */
 .circle {
-	width: 440px;
-	height: 440px;
+	width: 420px;
+	height: 420px;
 	background: rgb(0,0,0);
 	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
 	border-radius: 200px;
 	top: 160px;
 	left: 6000x;
 	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 	}
 
 /* base */
@@ -32,6 +35,9 @@ position: relative;
 	top: 160px;
 	left: 6000x;
 	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 	}
 
 /* cheese */
@@ -43,6 +49,9 @@ position: relative;
 	top: 160px;
 	left: 6000x;
 	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 	}
 
 /* olives */
