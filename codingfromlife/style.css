@@ -54,7 +54,7 @@ position: relative;
     transform: translate(-50% , -50%);
 	}
 
-/* olives */
+/* roni */
 .circle4 {
 	width: 40px;
 	height: 40px;
@@ -64,8 +64,16 @@ position: relative;
     transform: translate(400px , 400);
 	}
 
-	/* napkin*/
-
+	/* olive */
+	.circle5 {
+		width: 15px;
+		height: 15px;
+		background: rgb(0, 0, 0);
+		border-radius: 200px;
+		position: absolute;
+		transform: translate(400px , 400);
+		}
+	
 
 
 	
