@@ -84,7 +84,7 @@ position: relative;
 	height: 40px;
 	background: rgb(227, 15, 149);
 	border-radius: 200px;
-    transform: translate(400px , 400px);
+    transform: translate(400px , 150px);
 	}
 	/* roni */
 .circle8 {
@@ -100,7 +100,7 @@ position: relative;
 	height: 40px;
 	background: rgb(230, 226, 224);
 	border-radius: 200px;
-    transform: translate(500px , 450px);
+    transform: translate(500px , 175px);
 	}
 
 	/* olive */
