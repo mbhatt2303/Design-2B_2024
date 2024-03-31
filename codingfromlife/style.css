@@ -60,17 +60,15 @@ position: relative;
 	height: 40px;
 	background: rgb(227, 54, 15);
 	border-radius: 200px;
-	position: absolute;
-    transform: translate(400px , 400);
+    transform: translate(400px , 400px);
 	}
 
 	/* olive */
 	.circle5 {
-		width: 15px;
-		height: 15px;
+		width: 18px;
+		height: 18px;
 		background: rgb(0, 0, 0);
 		border-radius: 200px;
-		position: absolute;
 		transform: translate(400px , 400);
 		}
 	
