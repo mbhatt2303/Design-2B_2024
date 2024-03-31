@@ -67,7 +67,7 @@ position: relative;
 	.circle5 {
 		width: 18px;
 		height: 18px;
-		background: rgb(0, 0, 0);
+		stroke-width:8;
 		border-radius: 200px;
 		transform: translate(400px , 400);
 		}
