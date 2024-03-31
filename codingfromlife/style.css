@@ -13,8 +13,8 @@ position: relative;
 
 /* plate */
 .circle {
-	width: 400px;
-	height: 400px;
+	width: 440px;
+	height: 440px;
 	background: rgb(0,0,0);
 	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
 	border-radius: 200px;
@@ -25,8 +25,8 @@ position: relative;
 
 /* base */
 .circle2 {
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 400px;
 	background: rgb(206, 150, 126);
 	border-radius: 200px;
 	top: 160px;
@@ -36,8 +36,8 @@ position: relative;
 
 /* cheese */
 .circle3 {
-	width: 200px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 	background: rgb(255, 209, 23);
 	border-radius: 200px;
 	top: 160px;
