@@ -16,5 +16,15 @@ position: relative;
 	height: 100px;
 	background: rgb(240, 240, 240);
 	position: fixed;right: 600px; bottom: 350px;
-
   }
+
+.circle {
+width: 200px;
+height: 200px;
+background: rgb(78,78,78);
+background: radial-gradient(circle, rgba(78,78,78,1) 0%, rgba(255,255,255,1) 100%);
+border-radius: 200px;
+top: 160px;
+left: 6000x;
+position: absolute;
+}
