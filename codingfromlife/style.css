@@ -1,5 +1,5 @@
 body {
-	background: #0d0000;
+	background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(255,0,44,1) 100%);
 }
 
 /* do NOT modify the canvas */
@@ -8,13 +8,11 @@ body {
 	height: 1300px;
 	margin: 100px auto;
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 49%, rgba(255,0,44,1) 100%);
-	position: relative;
 }
 
 .rectangle {
 	width: 2000px;
 	height: 100px;
 	background: rgb(240, 240, 240);
-	margin-top: 400px;
 
   }
