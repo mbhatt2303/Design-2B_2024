@@ -63,7 +63,7 @@ position: relative;
     transform: translate(400px , 400px);
 	}
 	/* roni */
-.circle4 {
+.circle {
 	width: 40px;
 	height: 40px;
 	background: rgb(227, 54, 15);
@@ -71,7 +71,7 @@ position: relative;
     transform: translate(400px , 400px);
 	}
 	/* roni */
-.circle4 {
+.circle6 {
 	width: 40px;
 	height: 40px;
 	background: rgb(227, 54, 15);
@@ -79,7 +79,7 @@ position: relative;
     transform: translate(700px , 700px);
 	}
 	/* roni */
-.circle4 {
+.circle7 {
 	width: 40px;
 	height: 40px;
 	background: rgb(227, 54, 15);
@@ -87,7 +87,7 @@ position: relative;
     transform: translate(400px , 400px);
 	}
 	/* roni */
-.circle4 {
+.circle8 {
 	width: 40px;
 	height: 40px;
 	background: rgb(227, 54, 15);
@@ -95,7 +95,7 @@ position: relative;
     transform: translate(600px , 300px);
 	}
 	/* roni */
-.circle4 {
+.circle9 {
 	width: 40px;
 	height: 40px;
 	background: rgb(227, 54, 15);
@@ -104,7 +104,7 @@ position: relative;
 	}
 
 	/* olive */
-	.circle5 {
+	.circle10 {
 		width: 18px;
 		height: 18px;
 		stroke-width:8;
