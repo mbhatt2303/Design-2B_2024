@@ -28,3 +28,18 @@ top: 160px;
 left: 6000x;
 position: absolute;
 }
+
+.circle2 {
+	width: 250px;
+	height: 250px;
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(46,57,215,1) 100%);
+	border-radius: 200px;
+	top: 160px;
+	left: 6000x;
+	position: absolute;
+	}
+
+	div:nth-child(1) {
+		filter: drop-shadow(16px 16px);
+	  }
