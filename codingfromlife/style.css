@@ -30,7 +30,8 @@ position: relative;
 .circle2 {
 	width: 400px;
 	height: 400px;
-	background: rgb(206, 150, 126);
+	background: rgb(254,203,120);
+    background: radial-gradient(circle, rgba(254,203,120,1) 0%, rgba(138,75,13,1) 100%); 
 	border-radius: 200px;
 	top: 160px;
 	left: 6000x;
@@ -82,7 +83,7 @@ position: relative;
 .circle7 {
 	width: 40px;
 	height: 40px;
-	background: rgb(227, 15, 149);
+	background: rgb(227, 54, 15);
 	border-radius: 200px;
     transform: translate(370px , 150px);
 	}
@@ -98,7 +99,7 @@ position: relative;
 .circle9 {
 	width: 40px;
 	height: 40px;
-	background: rgb(230, 226, 224);
+	background: rgb(227, 54, 15);
 	border-radius: 200px;
     transform: translate(480px , 200px);
 	}
