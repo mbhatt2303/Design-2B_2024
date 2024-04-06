@@ -2,6 +2,22 @@ body{
     background-color: rgb(245, 220, 225)
 }
 
+.container{
+    padding-top: 4%;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    animation: 2s scale infinite; 
+    ;
+  }
   #box1{
     transform-origin: bottom right;
     border-radius: 0px 100px 0px 100px;
@@ -49,9 +65,15 @@ h1{
     transform: translate(-50% , -50%);
 }
 
-p{
+p1{
     color:rgb(4, 146, 30);
     font-size: 30px;
+    position: absolute;
+}
+
+p2{
+    color:rgb(4, 146, 30);
+    font-size: 20px;
     position: absolute;
 }
 
