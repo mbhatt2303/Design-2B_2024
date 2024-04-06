@@ -1,6 +1,6 @@
 
 body {
-    font-family:  "Grandiflora One", cursive;
+    font-family: "Archivo Black", sans-serif;
     background: rgb(245, 220, 225); 
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
   }
   
   .words {
-    color: rgb(245, 220, 225);
+    color: rgb(229, 220, 245);
     font-size: 0;
     line-height: 1.5;
   }
@@ -59,28 +59,14 @@ body {
   
 
 
-
-
-
-h1{
-    color:rgb(4, 146, 30);
-    font-size: 50px;
-    position: absolute;
-	top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 p1{
     color:rgb(4, 146, 30);
     font-size: 30px;
-    position: absolute;
 }
 
 p2{
     color:rgb(4, 146, 30);
     font-size: 20px;
-    position: absolute;
 }
 
 .grandiflora-one-regular {
