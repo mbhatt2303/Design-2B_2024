@@ -52,6 +52,8 @@ body{
     }
     100% {
       scale: 1;
+
+    animation-iteration-count: infinite;
     }
   }
 
