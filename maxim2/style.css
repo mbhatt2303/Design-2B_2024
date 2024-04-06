@@ -45,20 +45,6 @@ body{
       z-index: 100;
       margin-top: -298px;
     }
-  .line{
-    background: #0f9b0f;
-    margin-top: -130px;
-    width: 25px;
-    height: 310px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
-  .pot{
-    background: #7a2828;
-    border-radius: 0px 0px 40px 40px;
-    width: 250px;
-    height: 100px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
   @keyframes scale {
     0% {
       scale: 0.1;
