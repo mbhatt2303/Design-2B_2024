@@ -31,3 +31,199 @@ p2{
     font-style: normal;
   }
   
+  :root {
+    --leaf: green;
+  }
+  
+  
+  .leaf {
+    --duration: 3s;
+    --width: 10vw;
+    --scaley: 1;
+    --top: 50%;
+    --top-step: 0%;
+    background-color: var(--leaf);
+    width: var(--width);
+    height: var(--width);
+    left:calc(0px - (var(--width) * 2));
+    position: absolute;
+    border-top-right-radius: 78%;
+    border-bottom-left-radius: 78%;
+    transform-origin: 50% 50%;
+    animation-name: rotating;
+    animation-duration: var(--duration);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 100;
+  }
+  
+  .leaf:nth-child(3) {
+    --width: 12vw;
+    --top: 25%;
+    --top-step: 40%;
+    background: linear-gradient(225deg, #00873d 0%, #53961f 49%, #53961f 51%, #00873d 100%);
+    animation-delay: 0.5s;
+  }
+  
+  .leaf:nth-child(4) {
+    --width: 15vw;
+    --top: 45%;
+    --top-step: 30%;
+    background: linear-gradient(225deg, #005828 0%, #53961f 49%, #53961f 51%, #005828 100%);
+    animation-delay: 1.5s;
+  }
+  
+  .leaf:nth-child(5) {
+    --width: 15vw;
+    --top: 55%;
+    --top-step: -10%;
+    animation-delay: 0.5s;
+    animation-name: loop;
+    background: linear-gradient(225deg, #a28f01 0%, #53961f 49%, #53961f 51%, #a28f01 100%);
+  }
+  
+  .leaf:nth-child(7) {
+    --width: 8vw;
+    --scaley: 1.1;
+    --top: 85%;
+    background: linear-gradient(225deg,#a93927 0%, #73ff00 45%, #73ff00 55%, #a93927 100%);
+    animation-delay: 1.5s;
+    animation-name: loop;
+  }
+  
+  .leaf:nth-child(8) {
+    --width: 8vw;
+    --scaley: 1.1;
+    --top: 35%;
+    background: linear-gradient(225deg,#a93927 0%, #a0c400 45%, #a0c400 55%, #a93927 100%);
+    animation-delay: 0.5s;
+    animation-name: turning;
+  }
+  
+  .leaf:nth-child(9) {
+    --width: 9vw;
+    --scaley: 1.1;
+    --duration: 2.7s;
+    --top: 75%;
+    --top-step: -30%;
+    background: linear-gradient(225deg,#a93927 0%, #c44e00 45%, #c44e00 55%, #a93927 100%);
+    animation-delay: 1.5s;
+    animation-name: loop;
+  }
+
+  
+  .leaf:before {
+    content: " ";
+    height: 0.5vw;
+    width: calc(var(--width) * 1.13);
+    position: absolute;
+    top: -2vw;
+    left: -2vw;
+    transform: rotate(45deg);
+    background: linear-gradient(90deg, rgb(140 49 0) 0%, rgb(140 241 102) 100%);
+    transform-origin: 0% 50%;
+    clip-path: polygon(0% 0, 100% 50%, 0% 100%);
+  }
+  
+  @keyframes rotating {
+    0% {
+      top: var(--top);
+      left:calc(0px - (var(--width) * 2));
+      transform: rotate(0deg) scaleY(var(--scaley));
+    }
+    100% {
+      top: calc(var(--top) + var(--top-step));
+      left:calc(100% + (var(--width) * 2));
+      transform: rotate(900deg) scaleY(var(--scaley));
+    }
+  }
+  
+  @keyframes loop {
+    0% {
+      top: var(--top);
+      left:calc(0px - (var(--width) * 2));
+      transform: rotate(0deg); 
+    }
+    33% {
+      transform: rotate(-720deg);
+      transform-origin: -5vw -5vw;
+    }
+    66% {
+      transform: rotate(-1080deg);
+      transform-origin: -5vw -5vw;
+    }
+    100% {
+      top: calc(var(--top) + var(--top-step));
+      left:calc(100% + (var(--width) * 2));
+      transform: rotate(-1800deg);
+    }
+  }
+  
+  @keyframes turning {
+    0% {
+      top: var(--top);
+      left:calc(0px - (var(--width) * 2));
+      transform: rotate(-45deg) rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+      top: calc(var(--top) + var(--top-step));
+      left:calc(100% + (var(--width) * 2));
+      transform: rotate(-45deg) rotateY(720deg) rotateX(720deg);
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .leaf {
+      --duration: 2s;
+    }
+  }
+  
+  @media (max-width: 50px) {
+    .leaf {
+      --duration: 1s;
+    }
+  }
+  
+  
+  input:checked ~ .leaf {
+    animation-direction: reverse;
+  }
+  
+  
+  input {
+    --width: 4vh;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    height: var(--width);
+    width: calc(var(--width) * 2);
+    appearance: none;
+    outline: none;
+    background: linear-gradient(180deg,#3e3e3e 0%, #5d626d 45%, #484950 55%, #272423 100%);
+    cursor: pointer;
+    bottom: 0px;
+    left: calc(50% - (var(--width) / 2));
+    z-index: 200
+  }
+  
+  
+  input:before {
+    content: " ";
+    display: block;
+    width: calc(var(--width) * 5);
+    height: calc(var(--width) * 5);
+    background: linear-gradient(225deg,#3e3e3e 0%, #5d626d 45%, #484950 55%, #272423 100%);
+    position: absolute;
+    top: calc(0% - (var(--width) * 5));
+    left: calc(50% - (var(--width) * 5 / 2));
+    transform-origin: center center;
+    transition: transform 1s;
+    clip-path: polygon(0% 20%, 80% 20%, 75% 0%, 100% 30%, 75% 60%, 80% 40%, 55% 40%, 55% 100%, 45% 100%, 45% 40%, 0 40%);
+    line-height: 103px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  input:checked:before {
+   transform: rotateY(1260deg);
+  }
