@@ -24,7 +24,7 @@ p{
   }
   
   #span1 {
-    animation: light 60s alternate; 
+    animation: light 1s alternate; 
   }
 
 @keyframes light {
