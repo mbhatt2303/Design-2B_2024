@@ -23,3 +23,19 @@ p{
     font-style: normal;
   }
   
+  #spani {
+    animation: light 3s alternate;
+  }
+
+  @keyframes light {
+0% {
+    opacity: 1;
+}
+
+100% {
+    opacity: 0;
+}
+
+  }
+
+  
