@@ -27,15 +27,14 @@ p{
     animation: light 3s alternate;
   }
 
-  @keyframes light {
-0% {
-    opacity: 1;
+@keyframes light {
+    0% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
 }
-
-100% {
-    opacity: 0;
-}
-
-  }
 
   
