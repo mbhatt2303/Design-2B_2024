@@ -2,6 +2,46 @@ body{
     background-color: rgb(245, 220, 225)
 }
 
+
+.wind span {
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 600;
+    opacity: 0;
+    display: inline-block;
+    padding: 0em .5em;
+    
+    animation: letterWave 2s infinite linear;
+  
+
+    @for $i from 0 through 10 {
+      &:nth-child(#{$i}) {
+        animation-delay: $i * 250ms;
+      }
+    }
+  }
+  
+  
+  @keyframes letterWave {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+      padding: 0 .5em;
+      opacity: .8;
+    }
+    25%{
+      transform: translateY(-1em) scale(.8);
+      padding: 0 0em;
+      opacity: .6;
+    }
+    75% {
+      transform: translateY(1em) scale(1.5);
+      padding: 0 1em;
+      opacity: 1;
+    }
+  }
+
+
+
 h1{
     color:rgb(4, 146, 30);
     font-size: 50px;
