@@ -24,14 +24,19 @@ p{
   }
   
   #span1 {
-    animation: light 3s alternate;
+    animation: light 3s alternate; 
   }
 
 @keyframes light {
     0% {
+        opacity: 0;
+    }
+    25% {
         opacity: 1;
     }
-    
+    75% {
+        opacity: 0;
+    }
     100% {
         opacity: 0;
     }
