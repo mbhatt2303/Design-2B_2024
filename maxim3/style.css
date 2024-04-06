@@ -62,11 +62,15 @@ body {
 p1{
     color:rgb(4, 146, 30);
     font-size: 30px;
+    justify-content: right;
+    align-items: right;
 }
 
 p2{
     color:rgb(4, 146, 30);
     font-size: 20px;
+    justify-content: left;
+    align-items: left;
 }
 
 .grandiflora-one-regular {
