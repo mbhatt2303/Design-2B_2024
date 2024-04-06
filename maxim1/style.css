@@ -24,7 +24,7 @@ p{
   }
   
   #span1 {
-    animation: light 1s alternate; 
+    animation: light 3s infinite; 
   }
 
 @keyframes light {
@@ -38,7 +38,7 @@ p{
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: 0;
 
     }
 }
