@@ -8,8 +8,8 @@ body{
     height: 500px;
     background: lighten(desaturate(blue, 30%), 40%);
     animation:
-      sunset 4s ease-in-out 1.5s forwards 1,
-      sunrise 4s ease-in-out 10s forwards 1;
+      sunset 4s ease-in-out 1.5s forwards 1 infinite,
+      sunrise 4s ease-in-out 10s forwards 1 infinite;
   }
   .sun {
     content: "";
@@ -20,8 +20,8 @@ body{
     width: 100px;
     position: absolute;
     animation:
-      pm 8s ease-in-out forwards 1,
-      am 8s ease-in-out 8s forwards 1;
+      pm 8s ease-in-out forwards 1 infinite,
+      am 8s ease-in-out 8s forwards 1 infinite;
   }
   
   
