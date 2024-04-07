@@ -1,5 +1,15 @@
 
 body {
+
+    p{
+        color:rgb(4, 146, 30);
+        font-size: 30px;
+        position: absolute;
+      top: 50px;
+      left: 0;
+    }
+
+
     font-family: "Archivo Black", sans-serif;
     background: rgb(245, 220, 225); 
     display: flex;
@@ -59,13 +69,7 @@ body {
   
 
 
-p{
-    color:rgb(4, 146, 30);
-    font-size: 30px;
-    position: absolute;
-  top: 50px;
-  left: 0;
-}
+
 
 .grandiflora-one-regular {
     font-family: "Grandiflora One", cursive;
