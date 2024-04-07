@@ -76,7 +76,16 @@ body{
     -webkit-animation-delay: 10.25s;
     animation-delay: 10.25s;
 }
-
+ @-webkit-keyframes fly-cycle {
+ 100% {
+ background-position: -900px 0;
+}
+}
+ @keyframes fly-cycle {
+ 100% {
+ background-position: -900px 0;
+}
+}
 @-webkit-keyframes fly-right-one {
  0% {
  left: -10%;
