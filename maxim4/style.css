@@ -6,7 +6,7 @@ body{
     display: block;
     position: absolute;
     width: 1450px;
-    height:80px;
+    height:800px;
     background: lighten(desaturate(blue, 30%), 40%);
     animation: 
       sunset 5s ease-in-out 1.5s forwards 1,
