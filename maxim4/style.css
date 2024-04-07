@@ -7,9 +7,10 @@ body{
     width: 100%;
     height: 500px;
     background: lighten(desaturate(blue, 30%), 40%);
-    animation: infinite
+    animation: 
       sunset 5s ease-in-out 1.5s forwards 1,
-      sunrise 5s ease-in-out 10s forwards 1;
+      sunrise 5s ease-in-out 10s forwards 1,
+      infinite;
   }
   .sun {
     content: "";
@@ -19,11 +20,12 @@ body{
     height: 100px;
     width: 100px;
     position: absolute;
-    animation: infinite
+    animation: 
       pm 8s ease-in-out forwards 1,
-      am 8s ease-in-out 8s forwards 1;
+      am 8s ease-in-out 8s forwards 1,
+      infinite;
   }
-  
+
   
   @keyframes pm {
     0% { top: 0; left: 0;}
