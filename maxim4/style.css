@@ -4,6 +4,8 @@ body{
 .tvscreen {
     display: block;
     position: relative;
+    width: 100%;
+    height: 500px;
     background: lighten(desaturate(blue, 30%), 40%);
     animation-duration: sunset 4s ease-in-out 1.5s forwards 1, sunrise 4s ease-in-out 10s forwards 1;
     animation-iteration-count: infinite;
@@ -19,6 +21,7 @@ body{
     position: absolute;
     animation-duration: pm 8s ease-in-out forwards 1, am 8s ease-in-out 8s forwards 1;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
   
