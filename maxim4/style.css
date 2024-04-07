@@ -7,10 +7,8 @@ body{
     width: 100%;
     height: 500px;
     background: lighten(desaturate(blue, 30%), 40%);
-    animation: 
-      sunset 5s ease-in-out 1.5s forwards 1,
-      sunrise 5s ease-in-out 10s forwards 1;
-      animation-iteration-count: infinite;
+    animation-duration: sunset 4s ease-in-out 1.5s forwards 1, sunrise 4s ease-in-out 10s forwards 1;
+    animation-iteration-count: infinite;
   }
   .sun {
     content: "";
@@ -20,10 +18,8 @@ body{
     height: 100px;
     width: 100px;
     position: absolute;
-    animation: 
-      pm 8s ease-in-out forwards 1,
-      am 8s ease-in-out 8s forwards 1;
-      animation-iteration-count: infinite;
+    animation-duration: pm 8s ease-in-out forwards 1, am 8s ease-in-out 8s forwards 1;
+    animation-iteration-count: infinite;
   }
 
   
