@@ -34,7 +34,7 @@ body{
   }
   
   .trunk {
-    position: relative;
+    position: relative; right:80px;
     
     width: 10px;
     height: 500px;
