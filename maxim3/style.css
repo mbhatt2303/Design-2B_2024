@@ -66,13 +66,6 @@ p1{
     align-items: right;
 }
 
-p2{
-    color:rgb(4, 146, 30);
-    font-size: 20px;
-    justify-content: left;
-    align-items: left;
-}
-
 .grandiflora-one-regular {
     font-family: "Grandiflora One", cursive;
     font-weight: 900;
