@@ -23,6 +23,7 @@ body{
   html, body {
     margin: 0;
     padding: 0;
+    animation-iteration-count: infinite;
   }
   
  
@@ -122,6 +123,7 @@ body{
     animation-name: leaf-odd-grow;
     animation-duration: 4s;
     animation-fill-mode: both;
+    animation-iteration-count: infinite;
   }
   
   .leaf:nth-child(even) {  
