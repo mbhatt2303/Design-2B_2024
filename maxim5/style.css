@@ -25,15 +25,7 @@ body{
     padding: 0;
   }
   
-  .canvas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 600px;
-  
-    background-color: rgb(245, 220, 225);
-  }
+ 
   
   .trunk,
   .branch {
