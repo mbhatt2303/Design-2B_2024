@@ -129,7 +129,7 @@ body{
     
     transform-origin: 50% 100%;
     animation-name: leaf-even-grow;
-    animation-duration: 4s;
+    animation-duration: 4s, infinite;
     animation-fill-mode: both;
   }
   
