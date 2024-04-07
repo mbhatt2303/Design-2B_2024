@@ -4,8 +4,8 @@ body{
 
 .tvscreen {
     display: block;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 500px;
     height:500px;
     background: lighten(desaturate(blue, 30%), 40%);
     animation: 
