@@ -9,8 +9,8 @@ body{
     background: lighten(desaturate(blue, 30%), 40%);
     animation: 
       sunset 5s ease-in-out 1.5s forwards 1,
-      sunrise 5s ease-in-out 10s forwards 1,
-      infinite;
+      sunrise 5s ease-in-out 10s forwards 1;
+      animation-iteration-count: infinite;
   }
   .sun {
     content: "";
@@ -22,8 +22,8 @@ body{
     position: absolute;
     animation: 
       pm 8s ease-in-out forwards 1,
-      am 8s ease-in-out 8s forwards 1,
-      infinite;
+      am 8s ease-in-out 8s forwards 1;
+      animation-iteration-count: infinite;
   }
 
   
