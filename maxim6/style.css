@@ -1,47 +1,6 @@
 body{
     background-color: rgb(245, 220, 225)
 }
-
-
-body {
-    margin: 0;
-    padding: 0;
-}
- @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
-*, *::before, *::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-h1 {
-    font-family: 'Arima Madurai', cursive;
-    color: black;
-    font-size: 4rem;
-    letter-spacing: -3px;
-    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
-    position: relative;
-    z-index: 3;
-}
-.container {
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    min-height: 35rem;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 168, 76, 0.6)), to(rgba(255, 123, 13, 0.6))), url("http://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bg_img.jpg");
-    background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url("http://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bg_img.jpg");
-    background-blend-mode: soft-light;
-    background-size: cover;
-    background-position: center center;
-    padding: 2rem;
-}
 .bird {
     background-image: url(http://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg);
     background-size: auto 100%;
@@ -117,16 +76,7 @@ h1 {
     -webkit-animation-delay: 10.25s;
     animation-delay: 10.25s;
 }
- @-webkit-keyframes fly-cycle {
- 100% {
- background-position: -900px 0;
-}
-}
- @keyframes fly-cycle {
- 100% {
- background-position: -900px 0;
-}
-}
+
 @-webkit-keyframes fly-right-one {
  0% {
  left: -10%;
