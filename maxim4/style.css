@@ -5,8 +5,8 @@ body{
 .tvscreen {
     display: block;
     position: absolute;
-    width: 500px;
-    height:500px;
+    width: 1500px;
+    height:700px;
     background: lighten(desaturate(blue, 30%), 40%);
     animation: 
       sunset 5s ease-in-out 1.5s forwards 1,
