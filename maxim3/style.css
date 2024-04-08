@@ -5,9 +5,14 @@ body {
     color:rgb(4, 146, 30);
     font-size: 30px;
     position: absolute;
-    top: 50px;
-    left: 0;
     }
+
+
+  p2{
+    color:rgb(4, 146, 30);
+    font-size: 20px;
+    position: absolute; top: 0; right: 0
+}
 
 
     font-family: "Archivo Black", sans-serif;
@@ -68,11 +73,6 @@ body {
   }
   
 
-  p2{
-    color:rgb(4, 146, 30);
-    font-size: 20px;
-    position: absolute; top: 0; right: 0
-}
 
 
 .grandiflora-one-regular {
