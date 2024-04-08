@@ -12,7 +12,9 @@ h1{
 }
 
 
-p { text-align: right; }
+p { 
+    position: absolute; top: 0; right: 0
+}
 
 
 
