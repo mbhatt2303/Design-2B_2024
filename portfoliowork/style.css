@@ -2,7 +2,7 @@
 body {
 
 font-family: "Archivo Black", sans-serif;
-    background: rgb(0, 0, 0); 
+    background: rgb(115, 115, 115); 
     display: flex;
     flex-direction: column;
     height: 200vh;
@@ -11,7 +11,7 @@ font-family: "Archivo Black", sans-serif;
   }
   
   .words {
-    color: rgb(0, 0, 0);
+    color: rgb(115, 115, 115);
     font-size: 0;
     line-height: 1.5;
   }
